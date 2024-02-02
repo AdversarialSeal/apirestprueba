@@ -63,3 +63,4 @@ Observaciones para tener en cuenta del punto2:
 
 La clase principal es app, la cual enlaza al index.js, la logica de cada servicio se encuentra en los controllers, 
 y las demas validaciones en los endpoints con las rutas, no se logro enlazar la base de datos correctamente, solo se configuraron los parametros.
+En la carpeta routes se encuentran los endpoints de cada controllador.
