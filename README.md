@@ -58,3 +58,8 @@ BEGIN
    v_pacientes_en_intervalo := contar_pacientes(TO_DATE('2022-01-01', 'YYYY-MM-DD'), TO_DATE('2022-12-31', 'YYYY-MM-DD'));
    DBMS_OUTPUT.PUT_LINE('Pacientes en el intervalo de fechas: ' || v_pacientes_en_intervalo);
 END;
+
+Observaciones para tener en cuenta del punto2:
+
+La clase principal es app, la cual enlaza al index.js, la logica de cada servicio se encuentra en los controllers, 
+y las demas validaciones en los endpoints con las rutas, no se logro enlazar la base de datos correctamente, solo se configuraron los parametros.
